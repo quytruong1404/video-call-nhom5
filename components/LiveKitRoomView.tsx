@@ -32,12 +32,12 @@ function LiveKitParticipantList() {
           </h3>
         </div>
         <span className="text-[11px] px-2 py-0.5 rounded-full bg-emerald-500/15 text-emerald-400 font-semibold border border-emerald-500/25">
-          LiveKit API
+          Trực tuyến
         </span>
       </div>
 
       <p className="text-xs text-slate-400 mb-3">
-        Tên hiển thị nhận tự động từ tài khoản đăng nhập mạng xã hội:
+        Người tham gia trong cuộc gọi:
       </p>
 
       <div className="space-y-2 overflow-y-auto pr-1 flex-1">

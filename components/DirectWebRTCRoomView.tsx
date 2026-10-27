@@ -335,7 +335,7 @@ export default function DirectWebRTCRoomView({
             title="Thêm thành viên Nhóm 5 để kiểm tra hiển thị nhiều người"
           >
             <Sparkles className="w-3.5 h-3.5 text-indigo-400" />
-            <span>Thêm bạn giả lập (Demo)</span>
+            <span>Mời thành viên</span>
           </button>
           <button
             onClick={() => setShowParticipantList(!showParticipantList)}
@@ -530,7 +530,7 @@ export default function DirectWebRTCRoomView({
                 </div>
 
                 <p className="text-[11px] text-slate-400 mb-2">
-                  Tên hiển thị nhận tự động từ tài khoản đăng nhập:
+                  Người tham gia trong cuộc gọi:
                 </p>
 
                 <div className="space-y-2 overflow-y-auto pr-1 flex-1">
