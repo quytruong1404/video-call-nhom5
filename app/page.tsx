@@ -144,10 +144,13 @@ export default function HomePage() {
                 <span className="font-extrabold text-lg tracking-tight bg-gradient-to-r from-white via-indigo-100 to-indigo-300 bg-clip-text text-transparent">
                   MeetPulse
                 </span>
-                <span className="text-[11px] px-2 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 font-semibold">
+                <span className="text-[11px] px-2.5 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 font-bold">
                   Nhóm 5
                 </span>
               </div>
+              <p className="text-[11px] text-slate-400">
+                Thành viên: <span className="text-slate-200 font-medium">Trương Đàm Công Quý</span> • <span className="text-slate-200 font-medium">Tạ Thanh Tấn</span>
+              </p>
             </div>
           </div>
 
@@ -508,57 +511,10 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Development Team / Group Info Section (Required group & member info presented professionally) */}
-      <section className="py-12 border-t border-slate-800/80">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6">
-          <div className="p-8 rounded-3xl bg-gradient-to-r from-slate-900/90 via-indigo-950/30 to-slate-900/90 border border-slate-800/80 flex flex-col md:flex-row items-center justify-between gap-6">
-            <div>
-              <div className="flex items-center gap-2 mb-2">
-                <span className="px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-300 font-bold text-xs uppercase tracking-wider">
-                  Dự án phát triển
-                </span>
-                <span className="text-sm font-extrabold text-white">
-                  NHÓM 5 (Nhoms5)
-                </span>
-              </div>
-              <p className="text-xs text-slate-400 max-w-xl">
-                Ứng dụng gọi video trực tuyến tích hợp LiveKit API, xác thực mạng xã hội và quản lý danh sách người tham gia theo thời gian thực.
-              </p>
-            </div>
-
-            <div className="flex items-center gap-4">
-              <div className="flex items-center gap-3 bg-slate-950/80 px-4 py-3 rounded-2xl border border-slate-800">
-                <div className="w-9 h-9 rounded-full bg-gradient-to-tr from-indigo-500 to-purple-600 flex items-center justify-center font-bold text-white text-xs">
-                  Q
-                </div>
-                <div>
-                  <h4 className="text-xs font-bold text-white">
-                    Trương Đàm Công Quý
-                  </h4>
-                  <p className="text-[10px] text-slate-400">Thành viên Nhóm 5</p>
-                </div>
-              </div>
-
-              <div className="flex items-center gap-3 bg-slate-950/80 px-4 py-3 rounded-2xl border border-slate-800">
-                <div className="w-9 h-9 rounded-full bg-gradient-to-tr from-violet-500 to-pink-600 flex items-center justify-center font-bold text-white text-xs">
-                  T
-                </div>
-                <div>
-                  <h4 className="text-xs font-bold text-white">
-                    Tạ Thanh Tấn
-                  </h4>
-                  <p className="text-[10px] text-slate-400">Thành viên Nhóm 5</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Footer */}
       <footer className="border-t border-slate-900 bg-slate-950 py-6 text-center text-xs text-slate-500">
         <p>
-          © 2026 MeetPulse • Phát triển bởi Nhóm 5 (Trương Đàm Công Quý & Tạ Thanh Tấn)
+          © 2026 MeetPulse • Nhóm 5 (Trương Đàm Công Quý & Tạ Thanh Tấn)
         </p>
       </footer>
     </main>
